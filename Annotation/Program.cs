@@ -12,13 +12,13 @@ namespace Annotation
     {
         public static void Display()
         {
-            Console.BackgroundColor = ConsoleColor.Green;
+            Console.BackgroundColor = ConsoleColor.Yellow;
             Console.WriteLine("********Employee class Validation*********");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Green;
             Employee objEmployee = new Employee();
-            objEmployee.Name = "Mahesh";
-            objEmployee.Age = 23;
-            objEmployee.PhoneNumber = "7829303710";
+            objEmployee.Name = "Mahesh Naidu";
+            objEmployee.Age = 22;
+            objEmployee.PhoneNumber = "+91 7829303710";
             objEmployee.Email = "maheshhonnamurthy@gmail.com";
 
             ValidationContext context = new ValidationContext(objEmployee, null, null);

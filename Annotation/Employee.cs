@@ -10,6 +10,7 @@ namespace Annotation
 {
     public class Employee
     {
+
       [Required(ErrorMessage = "Employee Name is required")]
         [StringLength(100, MinimumLength = 3, ErrorMessage = "Name should be minimum 3 characters and a maximum of 100 characters")]
         [DataType(DataType.Text)]
